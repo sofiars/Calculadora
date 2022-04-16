@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="0,1,2,3,4">
+    <TableRow>
+        <TextView android:id="@+id/resultado" android:text="@string/textoInicio" android:layout_span="4" style="@style/TextoPrincipal" />
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/buttonC" android:text="@string/buttonClear" />
+        <Button android:id="@+id/buttonSigno" android:text="@string/buttonSigno"/>
+        <Button android:id="@+id/buttonPorcentaje" android:text="@string/buttonPorcentaje" />
+        <Button android:id="@+id/buttonDivision" android:text="@string/buttonDivide" />
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/sieteBtn" android:text="@string/sieteBtn"/>
+        <Button android:id="@+id/ochoBtn" android:text="@string/ochoBtn" />
+        <Button android:id="@+id/nueveBtn" android:text="@string/nueveBtn" />
+        <Button android:id="@+id/buttonMultiplicar" android:text="@string/buttonMultiplicar"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/cuatroBtn" android:text="@string/cuatroBtn" />
+        <Button android:id="@+id/cincoBtn" android:text="@string/cincoBtn" />
+        <Button android:id="@+id/seisBtn" android:text="@string/seisBtn" />
+        <Button android:id="@+id/buttonMenos" android:text="@string/buttonMenos" />
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/unoBtn" android:text="@string/unoBtn"/>
+        <Button android:id="@+id/dosBtn" android:text="@string/dosBtn"/>
+        <Button android:id="@+id/tresBtn" android:text="@string/tresBtn"/>
+        <Button android:id="@+id/buttonMas" android:text="@string/buttonMas"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/ceroBtn" android:text="@string/ceroBtn" android:layout_span="2"/>
+        <Button android:id="@+id/buttonComa" android:text="@string/buttonComa" />
+        <Button android:id="@+id/buttonIgual" android:text="@string/buttonIgual"/>
+    </TableRow>
+</TableLayout>

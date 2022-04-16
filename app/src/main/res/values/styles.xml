@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextoPrincipal">
+        <item name="android:textSize">40px</item>
+    </style>
+    <style name="colorBoton">
+        <item name="android:background">@color/teal_200</item>
+    </style>
+</resources>
